@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url("../webfonts/Geometry/stylesheet.css");
+
+body {
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Verdana;
+}
+
+.card {
+	 border: none;
+     padding: 20px;
+	 display: flex;
+     justify-content: center; 
+     align-items: center;
+	 text-align: center;
+} 
+
+.container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 100%;	
+}
+
+.container-fluid {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+span {
+    font-family: Geometry;
+}
+
+.row {
+    align-items: center;
+}
+
+h1 {
+    color: #901E5F;
+    font-weight: bold;	
+}
+
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+li {
+	text-align: left;
+}
+
+ol li img {
+	margin: 10px;
+	padding: 5px;
+}
+
+.text-y {
+    color: #E8B767;
+}
+
+.text-p {
+    color: #901E5F;
+}
+
+.card-text img{
+	margin: 10px;
+	padding: 10px;
+}
+
+video::cue(.bg_black) {
+    background-color: black;
+	font-size: 20px;
+}
+
+video::cue(.f_size) {
+	font-size: 20px;
+}
+
+.responsive-video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 oranı için */
+	height: 0;
+	overflow: hidden;
+}
+
+.responsive-video-container video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h2 {
+	margin-top: 10px;
+}
+
+@media screen and (max-width:768px){
+	body{
+		font-size: 12px;
+		margin: 5px;
+		padding: 5px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	
+	video::cue(.bg_black) {
+    background-color: black;
+	font-size: 15px;
+}
+
+video::cue(.f_size) {
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width:370px){
+	body{
+		font-size: 12px;
+		margin: 5px;
+		padding: 5px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	
+	video::cue(.bg_black) {
+    background-color: black;
+	font-size: 7px;
+}
+
+video::cue(.f_size) {
+	font-size: 7px;
+}
+}
